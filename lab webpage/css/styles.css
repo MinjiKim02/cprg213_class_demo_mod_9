@@ -1,0 +1,79 @@
+/* body sections */
+body{
+    width: 90%;
+    margin: 2em 2em 2em 2em;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    background-color: beige;
+}
+
+/* header sections */
+.header-section h1{
+    display: inline-block;
+    padding: 10px;
+    margin: 1em;
+}
+
+.img-logo{
+    width: 250px;
+    height: 100px;
+    padding: 1px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+/* nav section */
+.nav li{
+    width: 150px;
+    height: 30px;
+    font-size: x-large;
+    background-color: white;
+    border: 1px solid black;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+    display: block;
+}
+
+li:hover{
+    background-color: lightskyblue;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: lightskyblue;
+    text-decoration: none;
+}
+
+/* story-products sections */
+.story{
+    text-align: left;
+    padding-top: 1em;
+    padding-left: 2.5em;
+}
+
+/* form sections */
+form{
+    text-align: center;
+    padding: 10px;
+}
+
+label{
+    display: inline-block;
+    width: 100px;
+}
+
+button{
+    width: 10%;
+}
+
+/* footer sections */
+footer{
+    text-align: center;
+    color: gray;
+    margin: 5em;
+}
